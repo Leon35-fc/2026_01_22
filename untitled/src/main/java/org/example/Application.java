@@ -65,8 +65,6 @@ private static final EntityManagerFactory entityManagerFactory =
 //            System.out.println(ex.getMessage());
 //        }
 
-
-
         entityManager.close();
         entityManagerFactory.close();
     }
